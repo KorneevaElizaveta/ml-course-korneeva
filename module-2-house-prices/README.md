@@ -26,3 +26,31 @@ git clone https://github.com/KorneevaElizaveta/ml-course-korneeva.git
 cd ml-course-Korneeva/module-2-house-prices
 pip install -r requirements.txt
 jupyter notebook notebook.ipynb
+```
+
+
+## Структура модуля
+```bash
+module-2-house-prices/
+├── README.md
+├── notebook.ipynb
+├── requirements.txt
+├── data/
+│ ├── train.csv
+│ └── test.csv
+├── models/
+│ ├── lr_model.pkl
+│ ├── ridge_model.pkl
+│ ├── lasso_model.pkl
+│ ├── enet_model.pkl
+│ ├── best_model.pkl
+│ ├── scaler.pkl
+│ ├── feature_cols.json
+│ └── metrics.json
+└── examples/
+├── eda_plots.png
+├── predictions_scatter.png
+└── residuals.png
+```
+
+

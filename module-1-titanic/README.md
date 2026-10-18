@@ -45,3 +45,4 @@ from io import BytesIO
 
 BASE_URL = "https://raw.githubusercontent.com/KorneevaElizaveta/ml-course-korneeva/main/module-1-titanic"
 model = joblib.load(BytesIO(requests.get(f"{BASE_URL}/models/lr_model.pkl").content))
+```
