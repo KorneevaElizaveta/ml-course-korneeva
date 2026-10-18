@@ -28,16 +28,16 @@
     "ROC-AUC": 0.8391756439071018
   },
   "best_model": "LightGBM (Optuna)",
-  "best_roc_auc": 0.8472656646917134,
+  "best_roc_auc": 0.848065192218165,
   "best_params": {
     "n_estimators": 100,
-    "num_leaves": 20,
-    "max_depth": 10,
-    "learning_rate": 0.017784997999304462,
-    "subsample": 0.8977592871322698,
-    "colsample_bytree": 0.7332279780986688,
-    "min_child_samples": 36,
-    "reg_alpha": 0.0012564442680034617,
-    "reg_lambda": 0.023094406855090302
+    "num_leaves": 15,
+    "max_depth": 12,
+    "learning_rate": 0.031116638796107193,
+    "subsample": 0.5056546922393677,
+    "colsample_bytree": 0.8608330186440292,
+    "min_child_samples": 42,
+    "reg_alpha": 0.07270799218863522,
+    "reg_lambda": 0.020801670905053807
   }
 }
